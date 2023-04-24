@@ -1,5 +1,5 @@
 import "./header.scss";
-const Header = () => {
+const AppHeader = () => {
   return (
     <header className="header">
       <div className="container">
@@ -20,12 +20,12 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className="btn">Sign up now</button>
+          <button className="header_btn btn">Sign up now</button>
         </div>
       </div>
     </header>
   );
 };
-export default Header;
+export default AppHeader;
 
 // запитатись в Ростика по шрифтах ті що є в index.css

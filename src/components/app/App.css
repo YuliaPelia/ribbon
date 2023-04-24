@@ -5,7 +5,6 @@
 }
 
 .btn {
-  margin-left: 45px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -15,11 +14,14 @@
 
   letter-spacing: 0.5px;
   text-transform: capitalize;
-
+  transition: 0.3s all;
   color: #FFFFFF;
   background: #6157AB;
   border-radius: 5px;
-  width: 158px;
-  height: 54px;
+  padding: 12px 24px;
   cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 5px #9d95dd;
 }

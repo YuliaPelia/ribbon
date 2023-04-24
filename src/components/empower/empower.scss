@@ -1,0 +1,47 @@
+.empower {
+    padding-top: 72px;
+    background: #F5F4F2;
+    &_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 65px;
+        /* identical to box height, or 125% */
+
+        text-align: center;
+        letter-spacing: 0.675px;
+
+        color: #333333;
+    }
+    &_tabs {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &_btn {
+        padding: 15px 25px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+
+        letter-spacing: 2.32px;
+        text-transform: uppercase;
+
+        color: #7A858A;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #AAB8BF;
+        border-radius: 6.8px;
+        cursor: pointer;
+        transition: 0.2s all;
+        &:hover {
+            background: #ECEAF8;
+            border: 1px solid #6157AB;
+            color: #6157AB;
+        }
+    }
+}
