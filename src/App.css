@@ -3,3 +3,23 @@
   display: block;
   margin: 0 auto;
 }
+
+.btn {
+  margin-left: 45px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+  background: #6157AB;
+  border-radius: 5px;
+  width: 158px;
+  height: 54px;
+  cursor: pointer;
+}

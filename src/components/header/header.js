@@ -20,7 +20,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className="header_btn">Sign up now</button>
+          <button className="btn">Sign up now</button>
         </div>
       </div>
     </header>
