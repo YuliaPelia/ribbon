@@ -31,7 +31,7 @@ const AboutCompany = () => {
             <img src={Sofa} alt="sofa" />
           </div>
         </div>
-        <div className="company_line"></div>
+        <div className="company_line company_line_purple"></div>
         <ul className="company_list">
           <li className="company_list_item">
             <span>7,000+</span>
