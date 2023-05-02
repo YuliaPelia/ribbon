@@ -1,0 +1,50 @@
+.solutions {
+  padding: 70px 0 120px 0;
+  background: #574d9c;
+  border-radius: 0px 0px 19px 19px;
+  &_title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 65px;
+    /* identical to box height, or 127% */
+
+    text-align: center;
+    letter-spacing: 0.675px;
+
+    color: #ffffff;
+  }
+  &_tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    &_item {
+      &_btn {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        background-color: rgba(0, 0, 0, 0);
+        letter-spacing: 2.32px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #ffffff;
+        padding: 15px 21px;
+        border: 1px solid #ffffff;
+        border-radius: 6.8px;
+        transition: 0.5s all;
+        &:hover {
+          color: #574d9c;
+          background: #ffffff;
+          border: 1px solid #6157ab;
+          border-radius: 6.8px;
+        }
+      }
+    }
+  }
+}
+
+// запитати в Хвостика за слайдер
