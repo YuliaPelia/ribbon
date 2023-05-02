@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8dd72ec6.css",
+    "main.js": "/static/js/main.6cb85e49.js",
+    "static/media/together.png": "/static/media/together.bd7698f917ffaadb9633.png",
+    "static/media/sofa.png": "/static/media/sofa.5c7337e3228ceccf7fbd.png",
+    "static/media/promo.png": "/static/media/promo.208e97027f9f23d278ec.png",
+    "static/media/happy_people.png": "/static/media/happy_people.bfea26c6fcef3b77cb68.png",
+    "static/media/AllThingsConsidered.svg": "/static/media/AllThingsConsidered.44962d144cd97ae457e9cd6fe84015bf.svg",
+    "static/media/WSJ.svg": "/static/media/WSJ.0ac41660b387636723b1b8b247e2a32d.svg",
+    "static/media/appraisal_protection.svg": "/static/media/appraisal_protection.e58de8699996821c4814d4222515f77d.svg",
+    "static/media/UsaToday.svg": "/static/media/UsaToday.f55e771f9b368cc61ed65be238dc9873.svg",
+    "static/media/human.svg": "/static/media/human.63cc18cea81724252ff33c31480c0028.svg",
+    "static/media/TechCrunch.svg": "/static/media/TechCrunch.05577c5f4fd0bfdbd1f058e96f3d7768.svg",
+    "static/media/inman.svg": "/static/media/inman.0d19020b306a54692feffdcc0db5b7cf.svg",
+    "static/media/left_arrow.svg": "/static/media/left_arrow.964e51d1673d10426dbd2ece34f89f99.svg",
+    "static/media/right_arrow.svg": "/static/media/right_arrow.19ebde8226961268e6fa785de17b8a19.svg",
+    "static/media/bank.svg": "/static/media/bank.84b9c0a100f38c7b26128e5f29847666.svg",
+    "static/media/write.svg": "/static/media/write.31670b0621a73655078f98f9dd00a2f4.svg",
+    "static/media/dollar.svg": "/static/media/dollar.7275195e1dc965a2c27382b16086fb24.svg",
+    "static/media/book.svg": "/static/media/book.9edc83a5a016e55db8b69cb8038a6892.svg",
+    "index.html": "/index.html",
+    "main.8dd72ec6.css.map": "/static/css/main.8dd72ec6.css.map",
+    "main.6cb85e49.js.map": "/static/js/main.6cb85e49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dd72ec6.css",
+    "static/js/main.6cb85e49.js"
+  ]
+}
