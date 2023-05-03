@@ -5,6 +5,7 @@ import Certified from "../certified/certified.js";
 import AboutCompany from "../aboutCompany/aboutCompany.js";
 import OurSolution from "../ourSolutions/ourSolutions.js";
 import Carousel from "../carousel/carousel.js";
+import Footer from "../footer/footer.js";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           </OurSolution>
         </Empower>
       </main>
+      <Footer />
     </div>
   );
 }

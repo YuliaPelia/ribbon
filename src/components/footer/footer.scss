@@ -1,0 +1,113 @@
+.footer {
+  padding: 60px 0 80px 0;
+  background-color: #050302;
+  &_block {
+    display: flex;
+    justify-content: space-evenly;
+    &_second {
+      padding: 120px 0 0;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  &_logo {
+    padding: 30px 0;
+  }
+  &_list {
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
+    &_cooperation {
+      list-style: none;
+      &_sublist {
+        padding: 0;
+      }
+      &_title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        /* identical to box height, or 214% */
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: #ffffff;
+      }
+      &_item {
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          /* identical to box height, or 167% */
+          transition: 0.1s;
+          color: #ffffff;
+          &:hover {
+            color: #574d9c;
+          }
+        }
+      }
+    }
+  }
+  &_about {
+    a {
+      text-decoration: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      /* identical to box height, or 188% */
+      transition: 0.1s;
+      color: #f5f4f2;
+      &:hover {
+        color: #574d9c;
+      }
+    }
+  }
+  &_descr {
+    a {
+      text-decoration: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      /* identical to box height, or 188% */
+      margin-right: 15px;
+      color: #ffffff;
+      &:hover {
+        color: #574d9c;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      /* identical to box height, or 214% */
+
+      color: #e7ecee;
+    }
+  }
+  &_icon {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    svg {
+      cursor: pointer;
+      transition: 0.1s;
+      path:hover {
+        fill: #574d9c;
+      }
+    }
+  }
+}
