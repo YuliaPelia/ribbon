@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 88px 0;
+    padding: 88px 0 40px;
   }
 
   &_btn {
@@ -11,6 +11,26 @@
     border: none;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
+    perspective: 400px;
+    perspective-origin: center;
+  }
+  &_svg {
+    &_right {
+      svg {
+        transition: 1s linear;
+        &:hover {
+          transform: rotate(360deg);
+        }
+      }
+    }
+    &_left {
+      svg {
+        transition: 1s linear;
+        &:hover {
+          transform: rotate(-360deg);
+        }
+      }
+    }
   }
   //   first part
   &_part {
@@ -18,6 +38,43 @@
       width: 324px;
       background: rgba(231, 236, 238, 0.27);
       border-radius: 0px;
+      position: relative;
+      &_svg {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: #7569cf;
+        border-radius: 100px;
+        z-index: 5;
+        top: 10px;
+        left: 10px;
+        svg {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      &_text {
+        position: absolute;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 30px;
+        text-align: center;
+        /* identical to box height, or 150% */
+        letter-spacing: 2px;
+
+        color: #eceaf8;
+        background: #333333;
+        border-radius: 0px;
+        width: 127px;
+        height: 29px;
+        z-index: 5;
+        bottom: 69%;
+        left: 61%;
+      }
     }
   }
   &_list {
@@ -32,6 +89,7 @@
   &_img {
     width: 324px;
     height: 175px;
+    position: relative;
     img {
       width: 100%;
       height: auto;
@@ -165,5 +223,30 @@
   }
   &_link {
     margin-left: 10px;
+  }
+
+  &_indicators {
+    margin: 0 auto;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    &_tabs {
+      box-sizing: border-box;
+      list-style: none;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #ffffff;
+      border-radius: 100px;
+      cursor: pointer;
+      perspective: 100px;
+      perspective-origin: center;
+      &:hover {
+        transform: scale(1.1, 1.1);
+      }
+      &_active {
+        background: #ffffff;
+      }
+    }
   }
 }

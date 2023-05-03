@@ -2,8 +2,10 @@ import LeftArrow from "../../sourse/img/left_arrow.svg";
 import RightArrow from "../../sourse/img/right_arrow.svg";
 import HappyPeople from "../../sourse/img/happy_people.png";
 import AppraisalProtection from "../../sourse/img/appraisal_protection.svg";
+import R from "../../sourse/img/r.svg";
 import Book from "../../sourse/img/book.svg";
 import "./carousel.scss";
+import { ReactSVG } from "react-svg";
 
 const Carousel = () => {
   return (
@@ -11,10 +13,17 @@ const Carousel = () => {
       <div className="container">
         <div className="carousel_inner">
           <button className="carousel_btn">
-            <img src={LeftArrow} alt="arrow left slider" />
+            <ReactSVG
+              className="carousel_svg carousel_svg_left"
+              src={LeftArrow}
+            />
           </button>
           <div className="carousel_list">
             <div className="carousel_part carousel_part_first">
+              <div className="carousel_part_first_svg">
+                <ReactSVG src={R} />
+              </div>
+              <div className="carousel_part_first_text">ORLANDO, FL</div>
               <img
                 className="carousel_img"
                 src={HappyPeople}
@@ -67,9 +76,17 @@ const Carousel = () => {
             </div>
           </div>
           <button className="carousel_btn">
-            <img src={RightArrow} alt="arrow right slider" />
+            <ReactSVG
+              className="carousel_svg carousel_svg_right"
+              src={RightArrow}
+            />
           </button>
         </div>
+        <ol className="carousel_indicators">
+          <li className="carousel_indicators_tabs carousel_indicators_tabs_active"></li>
+          <li className="carousel_indicators_tabs "></li>
+          <li className="carousel_indicators_tabs "></li>
+        </ol>
       </div>
     </section>
   );

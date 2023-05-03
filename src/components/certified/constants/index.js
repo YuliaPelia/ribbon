@@ -5,13 +5,16 @@ export const servicesIcons = [
   {
     img: Dollar,
     descr: "Keep Your Commission",
+    id: 1,
   },
   {
     img: Write,
     descr: "Write More Winning Offers",
+    id: 2,
   },
   {
     img: Bank,
     descr: "Guaranteed to Close",
+    id: 3,
   },
 ];

@@ -37,8 +37,8 @@ const Certified = () => {
           {/* <IconWrapper icon={Dollar} />
           <IconWrapper icon={Dollar} />
           <IconWrapper icon={Dollar} /> */}
-          {servicesIcons.map((icon, descr) => (
-            <IconWrapper icon={icon.img} descr={icon.descr} />
+          {servicesIcons.map((icon) => (
+            <IconWrapper key={icon.id} icon={icon.img} descr={icon.descr} />
           ))}
         </ul>
       </div>
