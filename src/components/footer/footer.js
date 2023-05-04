@@ -4,6 +4,7 @@ import Accredited from "../../sourse/img/accredited_business.svg";
 import Instagram from "../../sourse/img/instagram_icon.svg";
 import Facebook from "../../sourse/img/facebook_icon.svg";
 import "./footer.scss";
+
 const Footer = () => {
   return (
     <footer className="footer">
